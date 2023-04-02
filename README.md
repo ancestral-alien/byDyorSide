@@ -7,28 +7,21 @@ Extensión para validación de vulnerabilidades en smart contracts
 
  
 
-## Overview
+## Visión General 
 
 ### Instalación
 
-* Acceder a Chrome 
+* Acceder a Chrome
+* Ingresar el buscador de extensiones desde https://chrome.google.com/webstore
 * Descargar la extensión byDYORside 
  
 
 ### Cómo utilizar la extensión web
 
-Una vez instala la extensión en su navegador Chrome: 
+Una vez instalada en su navegador Chrome la aplicación está lista para comenzar a realizar análisis sobre los contratos con los que el usuario esté por interactuar. 
+Antes de ejecutar una transacción byDYORside 
 
-```solidity
-pragma solidity ^0.8.0;
-import "@openzeppelin/contracts/token/ERC721/ERC721.sol";
-contract MyCollectible is ERC721 {
-    constructor() ERC721("MyCollectible", "MCO") {
-    }
-}
-```
-
-_If you're new to smart contract development, head to [Developing Smart Contracts](https://docs.openzeppelin.com/learn/developing-smart-contracts) to learn about creating a new project and compiling your contracts._
+_La aplicación actúa antes de que el usuario confirme cualquier transacción (ya sea de fimra, transferencia de tokens, swaps, etc) brindando en el momento el resultado del análisis para que pueda tomar desiciones en base a los niveles de riesgo detectados se realiza por cada interacción que el usuario realice desde una web la web hacia su wallet. If you're new to smart contract development, head to [Developing Smart Contracts](https://docs.openzeppelin.com/learn/developing-smart-contracts) to learn about creating a new project and compiling your contracts._
 
 To keep your system secure, you should **always** use the installed code as-is, and neither copy-paste it from online sources nor modify it yourself. The library is designed so that only the contracts and functions you use are deployed, so you don't need to worry about it needlessly increasing gas costs.
 
