@@ -28,7 +28,9 @@ _La aplicación actúa antes de que el usuario confirme cualquier transacción (
 byDYORside ejecuta un análisis interno para obtener un reporte que permita determinar el nivel de riesgo asociado. Estos niveles se muestran al usuario a través de un sistema de semáforos: 
 
 * ROJO (Riesgo Alto): Indica que el resultado del análisis muestra vulnerabilidades importantes que pueden afectar la seguridad del usuario.
+
 * AMARILLO (Riesgo Medio): Indica la ausencia de errores graves pero advierte de la presencia de algunas irregularidades que pueden llegar a afectar en menor medida al usuario. 
+
 * VERDE(Riesgo Bajo): Indica la ausencia de errores graves y medios. Puede presentar warnings u oportunidades de optimización que no afectan la seguridad del usuario de ninguna manera. 
  
 
